@@ -19,5 +19,5 @@ To showcase the best spots to visit.
 To ensure users are able to get in touch directly from the website via the Feedback Form.
 
 # Wireframing my project on Balsamiq
-#####The wire frame can be seen here:<a href="VisitMyCityKolkata_Wireframe.bmpr" target="_blank">WireFrame</a>
+###The wire frame can be seen here:<a href="VisitMyCityKolkata_Wireframe.bmpr" target="_blank">WireFrame</a>
 
