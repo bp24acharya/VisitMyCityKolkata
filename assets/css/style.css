@@ -1,3 +1,6 @@
+img{
+    width:100%;
+}
 header {
     background: aqua;
 }
@@ -5,7 +8,38 @@ header {
 .attract h1 {
     text-align: center;
 }
+.attract p {
+    text-align: center;
+}
+.attract img {
+height: 201px;
+}
+.attract h2 {
+    padding-top: 12px;
+    text-align: center;
+}
+.col-md-4.bod {
+    border: 2px solid gainsboro;
+    padding: 12px;
+}
+.col-md-3.bot-pad {
+    padding-bottom: 9px;
+}
 /* section attract ends
 /* section Feedbck starts */
 
 /* section Feedbck ends */
+
+/* footer section start */
+footer.foot {
+    background-color: darkgray;
+    height: 40px;
+    text-align: center;
+    font-size: 29px;
+    margin-top: 9px;
+}
+i.fa {
+    padding-left: 49px;
+}
+/* footer section ends  */
+
