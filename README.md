@@ -19,5 +19,5 @@ To showcase the best spots to visit.
 To ensure users are able to get in touch directly from the website via the Feedback Form.
 
 # Wireframing my project on Balsamiq
-.The wire frame can be seen here:<a href="doc:introduction" target="_blank">Introduction</a>
+#####The wire frame can be seen here:<a href="Milestone project 2 -C:\Users\prabhabi1\Desktop\milestone project2\24-May-2021.bmpr-Bals.." target="_blank">WireFrame</a>
 
