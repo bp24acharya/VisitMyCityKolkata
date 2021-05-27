@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Bootstrap CSS -->
+<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script   src="https://code.jquery.com/jquery-3.6.0.js"   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="   crossorigin="anonymous"></script>
 
 <title>Welcome to my city Kolkata!</title>
 
@@ -25,7 +27,7 @@
 .carousel-item
 {
     height: 32rem;
-    background: #777;
+    background: #000;
     color: aliceblue;
     position: relative;
     background-position: center;
@@ -37,60 +39,105 @@ position:absolute;
 bottom:0;
 left:0;
 right:0;
+padding-bottom: 50px;
+}
 
 
-
+.overlay-image{
+position:absolute;
+bottom:0;
+left:0;
+right:0;
+top:0px;
+background-position: center;
+background-size: cover;
+opacity: 0.5;
 }
 </style>
-<div id="idCarousel" data-ride="carousel" class="carousel slide">
-    <ol class="carousal-indicators">
+<section>
+<div id="idCarousel" class="carousel slide" data-ride="carousel" >
+    <ol class="carousel-indicators">
         <li data-target="#idCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#idCarousel" data-slide-to="1"></li>
-
-
-
+        <li data-target="#idCarousel" data-slide-to="2"></li>
     </ol>
-<div class="carouselinner">
-    <div class="carousel-item active" style="background-image:url(images\Slider1.jpg);">
+
+   <div class="carousel-item">
+        <div class="overlay-image" style="background-image:url(Slider1.jpg);"></div>
         <div class="Ccontainer">
             <h1>Victoria Memorial An Ode to Heritage and Art</h1>
             <p>
-                The Victoria Memorial is a large marble building in Kolkata, which was built between 1906 and 1921. It is dedicated to the memory of Empress Victoria, and is now a museum under the auspices of the Ministry of Culture.[2] The memorial lies on the Maidan and is one of the famous monuments of Kolkata.
+                The Victoria Memorial is a large marble building in Kolkata, which was built between 1906 and 1921.
             </p>
 
         </div>
-
-
     </div>
 
+<div class="carousel-inner">
+    <div class="carousel-item active" >
+        <div class="overlay-image" style="background-image:url(Slider1.jpg);"></div>
+        <div class="Ccontainer">
+            <h1>Victoria Memorial An Ode to Heritage and Art</h1>
+            <p>
+                The Victoria Memorial is a large marble building in Kolkata, which was built between 1906 and 1921.
+            </p>
+
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="overlay-image" style="background-image:url(Slider1.jpg);"></div>
+        <div class="Ccontainer">
+            <h1>Victoria Memorial An Ode to Heritage and Art</h1>
+            <p>
+                The Victoria Memorial is a large marble building in Kolkata, which was built between 1906 and 1921.
+            </p>
+
+        </div>
+    </div>
 
     <div class="carousel-item">
+        <div class="overlay-image" style="background-image:url(Slider1.jpg);"></div>
         <div class="Ccontainer">
             <h1>Victoria Memorial An Ode to Heritage and Art</h1>
             <p>
-                The Victoria Memorial is a large marble building in Kolkata, which was built between 1906 and 1921. It is dedicated to the memory of Empress Victoria, and is now a museum under the auspices of the Ministry of Culture.[2] The memorial lies on the Maidan and is one of the famous monuments of Kolkata.
+                The Victoria Memorial is a large marble building in Kolkata, which was built between 1906 and 1921.
             </p>
 
         </div>
-
-
     </div>
 
+    <div class="carousel-item" >
+        <div class="overlay-image" style="background-image:url(Slider2.jpg);"></div>
+        <div class="Ccontainer">
+            <h1>Victoria Memorial An Ode to Heritage and Art</h1>
+            <p>
+                The Victoria Memorial is a large marble building in Kolkata, which was built between 1906 and 1921.
+            </p>
+
+        </div>
+    </div>
+
+
+  
+
+</div>
+<a href="#idCarousel" class="carousel-control-prev" data-slide="prev" role="button">
+    <span class="sr-only">Previous</span>
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+</a>
+
+<a href="#idCarousel" class="carousel-control-next" data-slide="next" role="button">
+    <span class="sr-only" >Previous</span>
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+</a>
+
+ 
+
+
+
 </div>
 
-            <a href="#idCarousel" class="carousel-control-prev" data-slide="prev" role="button">
-                <span class="sr-only" >Previous</span>
-                <span class="carousel-control-prev-icon" aria-hidden="true">Previous</span>
-            </a>
-
-            <a href="#idCarousel" class="carousel-control-next" data-slide="prev" role="button">
-                <span class="sr-only" >Previous</span>
-                <span class="carousel-control-prev-icon" aria-hidden="true">Previous</span>
-            </a>
-
-</div>
-
-
+</section>
 
         <header>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
@@ -168,7 +215,7 @@ right:0;
                             <img src="1.jfif">
                            </div>
                            <div class="col-md-3">
-                            <img src="1.jfif">
+                            <img src="3.jfif">
                            </div>
                            <div class="col-md-3">
                             <img src="1.jfif">
