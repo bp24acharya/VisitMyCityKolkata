@@ -25,6 +25,15 @@ height: 201px;
 .col-md-3.bot-pad {
     padding-bottom: 9px;
 }
+a.link-preview {
+    position: absolute;
+    left: 46px;
+    top: 99px;
+    display: none;
+}
+.photo:hover ,.link-preview {
+ background-color: brown;
+}
 /* section attract ends */
 /* section startfeedback*/
 .contact-form {  
