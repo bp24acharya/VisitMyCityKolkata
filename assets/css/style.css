@@ -25,11 +25,22 @@ height: 201px;
 .col-md-3.bot-pad {
     padding-bottom: 9px;
 }
-/* section attract ends
-/* section Feedbck starts */
+/* section attract ends */
+/* section startfeedback*/
+.contact-form {  
+  margin: 0 auto;
+}
 
-/* section Feedbck ends */
+.form-label-marker {
+  color: red;
+}
 
+.btn-form {
+  float: left;
+  min-width: 8rem;
+  padding: 0.5rem 1.5rem;
+}
+/* section endfeedback*/
 /* footer section start */
 footer.foot {
     background-color: darkgray;
