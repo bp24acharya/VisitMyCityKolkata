@@ -309,8 +309,8 @@ opacity: 0.5;
                            </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div><h4>Map View of Top Attractions</h4></div>
+                <div style="float: left;width: 250px;">
+                    <div ><h6>Map View of Top Attractions</h6></div>
                     <div id="map"></div>
                   <!-- <img src="assets\images\kolkata_map.jpg"> -->
                 </div>
@@ -377,16 +377,25 @@ opacity: 0.5;
 
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/javascript/cards.js"></script>
-	<script src="assets/js/sendemail.js"></script>
-	<script src="assets/javascript/maps.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-	<script>
+    <!-- <script src="assets/javascript/cards.js"></script> -->
+
+
+	<!-- <script src="assets/js/sendemail.js"></script> -->
+	<!-- <script src="assets/javascript/maps.js"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+  </script>
+
+	<!-- <script>
 	(function() {
 		emailjs.init("user_X5lcjhj7wOu0WoBwmv1zz");
 	})();
-	</script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3OhaY-w55vnB84C8SohX795zry9ZMGZA&callback=initMap&libraries=&v=weekly" defer></script>
+	</script> -->
+
+
+
+
+
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.29.2/sweetalert2.all.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -396,19 +405,25 @@ opacity: 0.5;
 
 
     function initMap(){
-      var map = new google.maps.Map(document.getElementById("map"),{
-        Zoom: 3,
-        Center: {
-          lat:22.5445619,
-          lng:88.3421488
+      //alert("1");
+      var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 3,
+        center: {
+          lat: 46.619261,
+          lng: -33.134766
+          // lat:22.5445619,
+          // lng:88.3421488
+
         }
-      });
+      }
+     
+      ); //alert("2");
     }
   </script>
 
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Pivvh5y-O-BngXmcR_Pa4g9KY0ORDto&callback=initMap"></script>
-<!-- <script src="assets/js/maps.js"></script> -->
+<script src="assets/js/maps.js"></script>
 
 </body>
 </html>
