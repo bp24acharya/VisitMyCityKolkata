@@ -26,38 +26,39 @@ This website is a single page website that consists of four sections: Home, Attr
 Simple white background, minimalist design, easily accessible navigation bar, together with stunning images of must-see places were selected to allow users to explore the destination from their living rooms, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration.
 
 # Technologies used
-HTML 5<a href="https://www.tutorialspoint.com/html5/index.htm" target="_blank">HTML 5</a>
+#<a href="https://www.tutorialspoint.com/html5/index.htm" target="_blank">HTML 5</a>
 
 HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
 
-CSS 3<a href="https://www.educba.com/what-is-css3/" target="_blank">CSS 3</a>
+#<a href="https://www.educba.com/what-is-css3/" target="_blank">CSS 3</a>
 
 CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.
 
-Balsamiq Wireframe<a href="https://balsamiq.com/wireframes/" target="_blank">Balsamiq Wireframe</a>
+#<a href="https://balsamiq.com/wireframes/" target="_blank">Balsamiq Wireframe</a>
 
 Balsamiq helped me crystalise my design ideas, creating the layout structure.
 
-Fontawesome 4<a href="https://fontawesome.com/download" target="_blank">Fontawesome 4</a>
+#<a href="https://fontawesome.com/download" target="_blank">Fontawesome 4</a>
 
 I got all the icons for my website from here.
 
-<a href="https://desktop.github.com/" target="_blank">GitHub</a>
+#<a href="https://desktop.github.com/" target="_blank">GitHub</a>
 
 GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration.
 
-<a href="https://github.com/gitpod-io" target="_blank">Gitpod</a>
+#<a href="https://github.com/gitpod-io" target="_blank">Gitpod</a>
 
 Gitpod is an open source platform for automated and ready-to-code development environments that blends into your existing workflow.
 
 
-Canva<a href="https://www.canva.com/design/play?template=EADk-fQc_8A&category=tACZCki4tbY&type=TACQ-j4WGew" target="_blank">Canva</a>
+#<a href="https://www.canva.com/design/play?template=EADk-fQc_8A&category=tACZCki4tbY&type=TACQ-j4WGew" target="_blank">Canva</a>
 
 It helped me in designing the style guide. This is a great tool and easy to use.
 
-<a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp" target="_blank">Media Query</a>
+#<a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp" target="_blank">Media Query</a>
 
 I used this for the resposive design of the website.
 
-<a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank">Bootstrap</a>
+#<a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank">Bootstrap</a>
+
 used to create a layout and to build a responsive, mobile-first design, which is compatible with all modern browsers. 
