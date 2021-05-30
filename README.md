@@ -62,3 +62,15 @@ Used to embed Google Maps into the website, to provide users with the locations 
  
 <a href="https://sweetalert2.github.io/" target="_blank">SweetAlert2</a>
  An interactive custom modal window, provides a status confirmation (success / fail) when users submit a form on the website.
+
+#Features
+Header-responsive navigation header, designed using Bootstrap "navbar" and "fixed-top" and "navbar-light" classes.
+It is positioned on top of the page and always visible. This allows easy navigation if users wish to jump to a different section of the website.
+Home page consists of a Bootstrap image carousel that cycles through a series of images showcasing the natural beauty of the city Kolkata. The image carousel allows next controls for users' convenience.
+In the Attraction page facts about kolkata is given and there are three sections like Food and Culture/ Season / Best time to visit the city where the details on each topic is given clearly and will help the tourist.
+There are images of top attractions aswell for  reference.
+The Contact form helps the user to give their feedback and this will help the other tourist alot.
+# Testing
+HTML Markup Validation Service
+CSS Validation Service
+JavaScript Code Quality Tool JSHint 
