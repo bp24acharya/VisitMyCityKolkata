@@ -3,8 +3,8 @@
 function initMap(){
     //Map options
     const options = {
-        zoom: 6,
-        center: {lat:22.6694, lng:88.3997}
+        zoom: 10,
+        center: {lat:22.5677, lng:88.3707}
     };
     // New map
     const map = new 
