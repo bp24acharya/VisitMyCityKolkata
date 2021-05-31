@@ -14,16 +14,23 @@ function initMap(){
     // Create an Array of Markers
         const markers =[
             {
-                coords: {lat:22.57889431510853, lng:88.47182918150588}, //Jeti-Oguz Gorge    
+                coords: {lat:22.5788, lng:88.4718}, //Jeti-Oguz Gorge    
                 content: '<h4>Rajarhat New Town Sky Restaurant</h4>',
                 info: `<img class="img-fluid" src="assets/images/biswabanglaBanner.jpg" alt="Rajarhat New Town Sky Restaurant">
                 <h4 class="py-4">Rajarhat New Town Sky Restaurant</h4>
                 <p>Sky Restaurant - Glook The Sky Lounge is a newly opened restaurant which has opened up its doors in New Town on the 5th Floor of Pride PLaza Hotel. The main attraction of this place is their rooftop seating arrangement. The place is so beautiful.`
             },
             {
-                coords: {lat:22.545045999502246, lng:88.34256852623457}, // Ala-Archa National Park
+                coords: {lat:22.6325, lng:88.3564}, //Jeti-Oguz Gorge    
+                content: '<h4>Belur Math</h4>',
+                info: `<img class="img-fluid" src="assets/images/BelurMath.jpg" alt="Belur Math">
+                <h4 class="py-4">Belur Math</h4>
+                <p>Belur Math - Beluṛ Maṭh is the headquarters of the Ramakrishna Math and Ramakrishna Mission, founded by Swami Vivekananda, the chief disciple of Ramakrishna Paramahamsa. It is located on the west bank of Hooghly River, Belur, West Bengal, India and is one of the significant institutions in Kolkata.`
+            },
+            {
+                coords: {lat:22.5450, lng:88.3425}, // Ala-Archa National Park
                 content: '<h4>Victoria Memorial</h4>',
-                info: `<img class="img-fluid" src="assets/images/ala-archa.jpg" alt="Victoria Memorial">
+                info: `<img class="img-fluid" src="assets/images/VictoriaMemorial.jpg" alt="Victoria Memorial">
                 <h4 class="py-4">Victoria Memorial</h4>
                 <p>The Victoria Memorial is a large marble building in Kolkata, which was built between 1906 and 1921. It is dedicated to the memory of Empress Victoria, and is now a museum under the auspices of the Ministry of Culture. The memorial lies on the Maidan and is one of the famous monuments of Kolkata.</p>`
             }  
