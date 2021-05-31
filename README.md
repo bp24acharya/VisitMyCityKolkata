@@ -75,3 +75,34 @@ Footer is designed using Bootstrap and is located on the bottom of the page. It 
 HTML Markup Validation Service
 CSS Validation Service
 JavaScript Code Quality Tool JSHint 
+
+# Further Testing
+Navigation Bar
+
+The fixed navbar is placed on top of the page and always visible on all screen sizes.
+All the links on the navbar have been clicked to test and are working as intended, allowing users to jump to the linked page.
+
+Image Carousel
+
+Bootstrap Image carousel takes up the full page as intended and cycles through the images. The time delay attribute is functioning as intended, allowing some delay between automatically cycling the images.
+
+
+Map Section
+
+All Google Map markers have been for testing purposes and are functioning correctly. Upon clicking on the markers, the corresponding info window content appears in the sidebar section, located to the left of the map on medium and larger screens and on top of the map on small screen sizes.
+This section proved to be very challenging to get it work correctly and required an extensive online research. I have also had help from my mentor during our live project review session to debug and ensure the image and description of the places display in the "sidebar" div when the markers are clicked.
+On hover, info windows do not display "x" closing button as it has been intentionally removed for a cleaner look.
+Contact Form
+
+The Contact form has been tested by submitting the form with one or more empty required fields. This returns an error message requesting to fill in all the requested fields.
+When a text input entered into an email field it returns an error "@ sign should be included in the email address". This however doesn't stop users from entering incorrect email address.
+"Submit" button changes color on hover as intended.
+JavaScript reset() function is working correctly as the form resets after users fill in all input fields with valid data and click on "Submit" button.
+Tests revealed that the page was scrolling up to the top each time the form had been submitted. To prevent this from happening, return false; had been added to the event handler.
+When the form has been submitted, users see a customised SweetAlert2 message to confirm their action has been successful / failed. This has been tested and is working as expected.
+The Contact Form has been correctly linked to EmailJS and sends an email every time users submit the form.
+Footer
+
+Footer is responsive and always stays on the bottom of the page. This have been tested by reducing / increasing the screen width and is working as intended.
+Change of colour and transition effects on hovering over Social Icons have been tested and working as intended.
+Click on each Social icon revealed that links are functioning as intended and open in new tabs.

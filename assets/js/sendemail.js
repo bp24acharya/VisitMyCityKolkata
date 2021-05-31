@@ -1,12 +1,14 @@
 
+// Create sendMail function (adapted from CI walkthrough project)
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "Prarthana Acharya", {
-        "from_name": contactForm.Prarthana Acharya.value,
-        "from_email": contactForm.bp24.acharya@gmail.com.value,
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.email.value,
         "info_request": contactForm.message.value,
         "newsletter_request": contactForm.newsletter.value
     })
-     supply then() method for the promise
+    // supply then() method for the promise
     .then(
         // Sweet Alert custom pop-up alert if success
         function () {           
