@@ -70,6 +70,7 @@ Home page consists of a Bootstrap image carousel that cycles through a series of
 In the Attraction page facts about kolkata is given and there are three sections like Food and Culture/ Season / Best time to visit the city where the details on each topic is given clearly and will help the tourist.
 There are images of top attractions aswell for  reference.
 The Contact form helps the user to give their feedback and this will help the other tourist alot.
+Footer is designed using Bootstrap and is located on the bottom of the page. It is responsive and takes up the whole width of the screen on all screen size devices.
 # Testing
 HTML Markup Validation Service
 CSS Validation Service
