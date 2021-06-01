@@ -1,7 +1,7 @@
 
 // Create sendMail function (adapted from CI walkthrough project)
 
-//user_HQuMO406M2M3PCpd1ofZd
+//user_HQuMO406M2M3PCpd1ofZd Parent Form(Name)--> Template(template Name, ID ) --> 4 objects name, email,request,nl
 
 function sendMail(contactForm) {
     emailjs.send("pagm","emtPacharya", {

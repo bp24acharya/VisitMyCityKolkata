@@ -3,6 +3,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    z-index: 150;
   }
   
   .attraction:hover {opacity: 0.7;}

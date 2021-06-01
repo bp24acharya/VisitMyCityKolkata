@@ -32,9 +32,11 @@ function toggleSeasonsText() {
 }
 
 function toggleBesttimeText() {
+    
     var dots = document.getElementById("dots2");
-    var moreText = document.getElementById("more2");
+    var moreText = document.getElementById("more2")
     var btnText = document.getElementById("myBtn2");
+    //alert(dots);
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
