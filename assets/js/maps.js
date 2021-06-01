@@ -28,7 +28,7 @@ function initMap(){
                 <p>Belur Math - Beluṛ Maṭh is the headquarters of the Ramakrishna Math and Ramakrishna Mission, founded by Swami Vivekananda, the chief disciple of Ramakrishna Paramahamsa. It is located on the west bank of Hooghly River, Belur, West Bengal, India and is one of the significant institutions in Kolkata.`
             },
             {
-                coords: {lat:22.5450, lng:88.3425}, // Ala-Archa National Park
+                coords: {lat:22.5450, lng:88.3425}, // Ala-Archa National Park   VictoriaMemorial.jpg
                 content: '<h4>Victoria Memorial</h4>',
                 info: `<img class="img-fluid" src="assets/images/VictoriaMemorial.jpg" alt="Victoria Memorial">
                 <h4 class="py-4">Victoria Memorial</h4>
