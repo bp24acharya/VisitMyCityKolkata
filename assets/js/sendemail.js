@@ -1,8 +1,10 @@
 
 // Create sendMail function (adapted from CI walkthrough project)
 
+//user_HQuMO406M2M3PCpd1ofZd
+
 function sendMail(contactForm) {
-    emailjs.send("gmail", "Prarthana Acharya", {
+    emailjs.send("pagm","emtPacharya", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.email.value,
         "info_request": contactForm.message.value,

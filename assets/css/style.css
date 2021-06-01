@@ -1,3 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+/*--Map Section--*/
+div#map {
+  min-height: 650px;
+  width: 100%;
+}
+
+.map-description {
+  width: 90%;
+  margin: 0 auto;
+  height: 650px;
+  padding-right: 1rem;
+  padding-left: 1.5rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.sidebar {
+  height: 650px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.gm-style-iw > button {
+  display: none !important;
+}
+
+
+
+
+
+
 img{
     width:100%;
 }
@@ -84,20 +118,20 @@ i.fa {
     opacity: 1;
   }
   
-
+  / Clear floats after the columns /
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-
+  / The expanding image container (positioning is needed to position the close button and the text) /
   .container {
     position: relative;
     display: none;
   }
   
-
+  / Expanding image text /
   #imgtext {
     position: absolute;
     bottom: 15px;
@@ -106,7 +140,7 @@ i.fa {
     font-size: 20px;
   }
   
-
+  / Closable button inside the image /
   .closebtn {
     position: absolute;
     top: 10px;
@@ -123,3 +157,5 @@ section.container {
     text-align: center;
     padding-top: 29px;
 }
+
+
