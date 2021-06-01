@@ -63,7 +63,8 @@ Used to embed Google Maps into the website, to provide users with the locations 
 <a href="https://sweetalert2.github.io/" target="_blank">SweetAlert2</a>
  An interactive custom modal window, provides a status confirmation (success / fail) when users submit a form on the website.
 
-#Features
+# Features
+
 Header-responsive navigation header, designed using Bootstrap "navbar" and "fixed-top" and "navbar-light" classes.
 It is positioned on top of the page and always visible. This allows easy navigation if users wish to jump to a different section of the website.
 Home page consists of a Bootstrap image carousel that cycles through a series of images showcasing the natural beauty of the city Kolkata. The image carousel allows next controls for users' convenience.
@@ -108,3 +109,6 @@ Click on each Social icon revealed that links are functioning as intended and op
 
 # Usability Testing
 Usability of this website has been tested by sharing it with family and friends. No issues arose during the tests and it was confirmed that the website was simple, engaging and user-friendly. They were able to intuitively use the interactive elements of the website, find the information they were looking for and easily understand the purpose of the website.They really found the website very attractive and informative.
+
+# Compatibility Testing
+Compatibility and responsiveness of the website was extensively tested across multiple browsers (Chrome, Safari, Microsoft Edge, Fire Fox) and on muliple screen size devices including iPhone (5, 6, 7, PLus, X), iPad, iPad Pro; Android devices (Microsoft Lumia 950; Kindle Fire, Samsung Galaxy S, HTC One X) using Chrome Dev Tools and Responsive Web Design Tester. It was also tested on physical devices including iPhone and iPad.
