@@ -84,15 +84,14 @@ All the links on the navbar have been clicked to test and are working as intende
 
 Image Carousel
 
-Bootstrap Image carousel takes up the full page as intended and cycles through the images. The time delay attribute is functioning as intended, allowing some delay between automatically cycling the images.
+Bootstrap Image carousel takes up the full page as intended and cycles through the images. The time delay attribute is functioning as intended, allowing some delay between automatically cycling the images.In this section I have included images with a description on it so that it attracts the tourists.
 
 
 Map Section
 
 All Google Map markers have been for testing purposes and are functioning correctly. Upon clicking on the markers, the corresponding info window content appears in the sidebar section, located to the left of the map on medium and larger screens and on top of the map on small screen sizes.
-This section proved to be very challenging to get it work correctly and required an extensive online research. I have also had help from my mentor during our live project review session to debug and ensure the image and description of the places display in the "sidebar" div when the markers are clicked.
-On hover, info windows do not display "x" closing button as it has been intentionally removed for a cleaner look.
-Contact Form
+This section proved to be very challenging to get it work correctly and required an extensive online research.I had to debug and ensure the image and description of the places display in the "sidebar" div when the markers are clicked.
+
 
 The Contact form has been tested by submitting the form with one or more empty required fields. This returns an error message requesting to fill in all the requested fields.
 When a text input entered into an email field it returns an error "@ sign should be included in the email address". This however doesn't stop users from entering incorrect email address.
@@ -101,8 +100,11 @@ JavaScript reset() function is working correctly as the form resets after users 
 Tests revealed that the page was scrolling up to the top each time the form had been submitted. To prevent this from happening, return false; had been added to the event handler.
 When the form has been submitted, users see a customised SweetAlert2 message to confirm their action has been successful / failed. This has been tested and is working as expected.
 The Contact Form has been correctly linked to EmailJS and sends an email every time users submit the form.
-Footer
+Footer. I took quite a long time in doing this section as few things that were shown in the Code institute tutorial videos is not the same and the tutor group has helped me in pointing that.
 
 Footer is responsive and always stays on the bottom of the page. This have been tested by reducing / increasing the screen width and is working as intended.
 Change of colour and transition effects on hovering over Social Icons have been tested and working as intended.
 Click on each Social icon revealed that links are functioning as intended and open in new tabs.
+
+# Usability Testing
+Usability of this website has been tested by sharing it with family and friends. No issues arose during the tests and it was confirmed that the website was simple, engaging and user-friendly. They were able to intuitively use the interactive elements of the website, find the information they were looking for and easily understand the purpose of the website.They really found the website very attractive and informative.
