@@ -88,14 +88,20 @@ a.link-preview {
 }
 /* section endfeedback*/
 /* footer section start */
-footer.foot {
-    background-color: darkgray;
+.foot {
+  background-color: #343a40;
     text-align: center;
     font-size: 29px;
+    height:56px;
    
 }
+.foot a{
+  color: aliceblue;
+}
+
 i.fa {
     padding-left: 49px;
+    padding-top: 14px;
 }
 /* footer section ends  */
 
