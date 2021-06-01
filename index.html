@@ -1,466 +1,448 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>VisitMyCityKolkata</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="#" />
-<!-- Bootstrap CSS -->
-<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-<script   src="https://code.jquery.com/jquery-3.6.0.js"   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="   crossorigin="anonymous"></script>
+<head>
+  <title>VisitMyCityKolkata</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="#" />
+  <!-- Bootstrap CSS -->
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-
-<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<title>Welcome to my city Kolkata!</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
 
 
-        
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        
-       
-        <style>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 
+  <!-- Bootstrap core CSS -->
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-.bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-	  
-	  
-	  
-	  .carousel-item
-{
-    height: 32rem;
-    background: #000;
-    color: aliceblue;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-}
+  <title>Welcome to my city Kolkata!</title>
 
 
 
-.overlay-image{
-position:absolute;
-bottom:0;
-left:0;
-right:0;
-top:0px;
-background-position: center;
-background-size: cover;
-opacity: 0.5;
-}
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
-          </style>
-      
-          
-          <!-- Custom styles for this template -->
-          <link href="assets/carousel/carousel.css" rel="stylesheet">
 
-             </head>
+
+
+  <!-- Custom styles for this template -->
+  <link href="assets/carousel/carousel.css" rel="stylesheet">
+  <link href="assets/css/modal.css" rel="stylesheet">
+
+</head>
+
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#myCarousel">Home</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#attr">Attraction</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#feed">Feedback</a>
-                </li>
-                
-              </ul>
-              
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#myCarousel">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#attr">Attraction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#feed">Feedback</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active" data-interval="3000">
+          <div class="overlay-image" style="background-image:url(assets/images/Slider1.jpg);"></div>
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Welcome to Kolkata - City of Joy</h1>
+              <p>City of Joy is a 1985 novel by Dominique Lapierre. It was adapted as a film by Roland Joffé in 1992.
+                Calcutta is nicknamed "the City of Joy" after this novel.</p>
+
             </div>
           </div>
-        </nav>
-        </header>
+        </div>
 
-      <main>
-       
-        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
+
+        <div class="carousel-item" data-interval="2000">
+          <div class="overlay-image" style="background-image:url(assets/images/Slider2.jpg);"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Kolkata Tram</h1>
+              <p>This is the only operating tramway in India and is the oldest electric tram in India, operating since
+                1902.</p>
+
             </div>
-        
-            <div class="carousel-inner">
-
-             <div class="carousel-item active" data-interval="3000">
-             <div class="overlay-image" style="background-image:url(assets/images/Slider1.jpg);"></div>  
-                <div class="container">
-                  <div class="carousel-caption text-start">
-                    <h1>Welcome to Kolkata - City of Joy</h1>
-                    <p>City of Joy is a 1985 novel by Dominique Lapierre. It was adapted as a film by Roland Joffé in 1992. Calcutta is nicknamed "the City of Joy" after this novel.</p>
-                   
-                  </div>
-                </div>
-              </div>
-              
-              
-              
-              <div class="carousel-item" data-interval="2000">
-                <div class="overlay-image" style="background-image:url(assets/images/Slider2.jpg);"></div>
-                <div class="container">
-                  <div class="carousel-caption">
-                    <h1>Kolkata Tram</h1>
-                    <p>This is the only operating tramway in India and is the oldest electric tram in India, operating since 1902.</p>
-                    
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item" data-interval="2000">
-                <div class="overlay-image" style="background-image:url(assets/images/Slider22.jpg);"></div>
-                <div class="container">
-                  <div class="carousel-caption">
-                    <h1>Kolkata Metro</h1>
-                    <p>This is the First Metro Railways in India was completed on 24th October 1984.</p>
-                    
-                  </div>
-                </div>
-              </div>
-              
-              
-              
-              <div class="carousel-item" data-interval="2000">
-                <div class="overlay-image" style="background-image:url(assets/images/Slider3.jpg);"></div>
-                <div class="container">
-                  <div class="carousel-caption">
-                    <h1>Eden Gardens Cricket Ground.</h1>
-                    <p>Eden Gardens is a cricket ground in Kolkata, India. Established in 1864, it is the oldest and second-largest cricket stadium in India .</p>
-                    
-                  </div>
-                </div>
-              </div>
-              
-              
-              <div class="carousel-item" data-interval="2000">
-            <div class="overlay-image" style="background-image:url(assets/images/Slider4.jpg);"></div>
-                <div class="container">
-                  <div class="carousel-caption text-end">
-                    <h1>Second Hooghly Bridge.</h1>
-                    <p>Vidyasagar Setu, also known as the Second Hooghly Bridge, over the Hooghly River, linking the cities of Kolkata longest cable-stayed bridge in India.</p>
-                    
-                  </div>
-                </div>
-              </div>
-              
-              
-            <div class="carousel-item" data-interval="2000">
-            <div class="overlay-image" style="background-image:url(assets/images/Slider5.jpg);"></div>
-                <div class="container">
-                  <div class="carousel-caption text-end">
-                    <h1>Howrah Bridge</h1>
-                    <p>This bridge is a balanced cantilever bridge over the Hooghly River in West Bengal, India. Commissioned in 1943.
-
-                    </p>
-                   
-                  </div>
-                </div>
-              </div>
-              
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-           </main>
-    <section class="attract" id="attr">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>FACTS ABOUT KOLKATA</h1>
-                    <p>Located on the east bank of the Hooghly River, Kolkata truly holds the essence of Eastern India. Being a historical city, Kolkata is home to numerous palaces, monuments, and temples bearing architectural significance. Let’s explore some interesting facts about this Gateway of Eastern India: Durga Puja is the most awaited and fascinating festival of Kolkata. During the Navratri festival, the entire city becomes illuminated with numerous Puja Pandals.  Kolkata’s marvelous architecture, delicious cuisines, Intellectuals like Rabindranath Tagore, and a blend of various cultures; making it the scientific and cultural capital of India.   Kolkata is often referred to as the city where specialized sweet delight Bengali Rasgulla (pronounced as Rosogolla) is made.It has trams, it has metros, it has taxis, but Kolkata still depends on its traditional hand-pulled rickshaws to commute, the only one in India.</p>
-                </div>
-                <div class="col-md-4 bod">
-                    <div class="image">
-                    <img src="assets\images\food1.jfif">
-                </div>
-                    <h2>Food and Culture</h2>
-                    
-                  <p>An easy and quick munchy, Jhalmuri is an appetizing street food that can be found in every nook of the city. The snack is a tossed-up mix of puffed rice, namkeen, peanuts, coriander, onions, tomatoes, spices, chillies, and more.<span id="dots">...</span><span id="more">Samosa, as we know it in other regions of India and in the world, Shingara is your triangular fried snack with potato stuffing that you crave to eat with hot masala chai in the evening. Shingara, the best street food in Kolkata, is not limited to aloo stuffing; you can get mutton, chicken and lamb as well.The culture of Kolkata concerns the music, art, museums, festivals, and lifestyle within Kolkata. It is the former capital of India and the current capital of the Indian state of West Bengal, and occasionally called the "Cultural capital of India". Bengalis tend to have a special appreciation for art and literature.</span></p>
-<button onclick="myFunction(this.id);" id="myBtn">Read more</button>
-
-
-               </div>
-               <div class="col-md-4 bod">
-                <div class="image">
-                <img src="assets\images\weather.jfif">
-                </div>
-                <h2>Seasons in Kolkata</h2>
-                    
-                    <p>Monsoons in Kolkata. Kolkata receives most of its rainfall during the southwest monsoon from June to September.Winter is the most enjoyable time of the year in Kolkata, and is the time when most tourists choose to visit the city.<span id="dots1">...</span><span id="more1">Humidity is low, and the days are dry and sunny, making it best for sightseeing. Kolkata heads straight into summer in March, as the overnight nip disappears from the air and daytime temperatures begin to climb. However, it's not until April, when the dreaded humidity sets in, that the weather in the city becomes exhausting and intolerable. Humidity levels reaching 85 percent are oppressive in May.The uncomfortable summer weather continues until the monsoon reaches Kolkata by mid-June. You can expect rain on most days in the second half of June. The rain intensifies in July and continues through August, with up to 21 rainy days each month.October brings welcome respite to the city with shorter spells of rain, lower temperatures, and less humidity.</span></p>
-<button onclick="myFunction(this.id);" id="myBtn1">Read more</button>
-
-           </div>
-           <div class="col-md-4 bod">
-            <div class="image">
-            <img src="assets\images\temple.jfif">
-            </div>
-            <h2>Best time to Visit</h2>
-                    
-                        <p>Located on the eastern coast of India, Kolkata has a typical tropical climate. Here’s a monthly seasonal break up so you can plan your trip accordingly:
-
-                          October-March: Starting from autumn the weather is pleasant and is a great time to visit Kolkata. <span id="dots2">...</span><span id="more2">Apart from the weather, this is also the time for festivals. Kolkata comes alive during Durga Puja as there are numerous pandals all over the city with beautiful idols or Goddess Durga and multiple street food stalls. This is followed by Laxmi Puja and Kali Puja.
-                        
-                            In winters the temperature varies somewhere between 9°C and 11°C. December and January are the coolest months and you would need light woolens for this time, especially during the night. There is the occasional rainfall, which makes the weather very pleasant making it the best time to plan a holiday.
-                            
-                            April-May: These are the hottest months in the city with the temperature varying from over 40°C to around 30°C. The heat can make sightseeing a little difficult to remember to carry sunglasses and comfortable cotton clothes.
-                            
-                            June to September: This is the famous monsoon season of Kolkata when the city experiences heavy showers. The temperature comes down although humidity levels rise. August is the wettest month and it tends to rain over long durations. September is when the rain slows down and the cool breeze make for pleasant evenings.</span></p>
-<button onclick="myFunction(this.id);" id="myBtn2">Read more</button>
-       </div>
-       </div>
         </div>
-        </section>
-    <section class="container1">
-      <div class="container">
-            <h1>Top Attractions of Kolkata</h1>
-            
-                   <div class="row">
-                    <!-- <div class="container"> -->
-<div class="column">
-<img src="assets/images/FW.jpg" alt="Nature" onclick="myFunction(this);">
-</div>
-<div class="column">
-<img src="assets/images/HB.jpg" alt="It is a famous and peaceful religious place" onclick="myFunction(this);">
-</div>
-<div class="column">
-<img src="assets/images/MotherH.jpg" alt="Mountains" onclick="myFunction(this);">
-</div>
-<div class="column">
-<img src="assets/images/MP.jpg" alt="Lights" onclick="myFunction(this);">
-</div>
-<div class="column">
-  <img src="assets/images/RSarovar.jpg" alt="Lights" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="assets/images/SunBans.jpg" alt="Lights" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="assets/images/Tagore.jpg" alt="Lights" onclick="myFunction(this);">
-      </div>
-      <div class="column">
-        <img src="assets/images/Aqua.jpg" alt="Lights" onclick="myFunction(this);">
+
+        <div class="carousel-item" data-interval="2000">
+          <div class="overlay-image" style="background-image:url(assets/images/Slider22.jpg);"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Kolkata Metro</h1>
+              <p>This is the First Metro Railways in India was completed on 24th October 1984.</p>
+
+            </div>
+          </div>
         </div>
-</div>
 
-</div>
-      
-<!-- The expanding image container -->
-<div class="container">
-<!-- Close the image -->
-<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 
-<!-- Expanded image -->
-<img id="expandedImg" style="width:100%">
 
-<!-- Image text -->
-<div id="imgtext"></div>
-</div>
- </section>
-                
-   
-<!--Map Section-->
-<div id="explore">
-  <div class="container-fluid">
-    <div class="row pt-5">
-      <div class="col-12 map-title text-center mt-sm-3 py-4">
-                  <h2>Explore these places</h2> 
-              </div>
-    </div>
-    <div class="row">
-      <div id="sidebar" class="sidebar col-md-4 px-3"> <img class="img-fluid" src="assets/images/Mayapur.jpg" alt="Athletes wrestling on a horseback at the World Nomad Games">
-        <h5 class="sidebar-heading py-4">Iskcon Temple</h5>
-        <p class="sidebar-text">ISKCON Kolkata is the first ISKCON Temple established by Srila Prabhupada in India. Moreover, ISKCON’S first Ratha Yatra in India took place in Kolkata on 12 July 1972. ISKCON Kolkata’s youth preaching wing ISKCON Youth Forum (IYF) has been preaching to youth community in and around Kolkata since 2001 and hundreds of students have participated in different courses. 
-          <br> It has centres called VOICE (Vedic Oasis for Inspiration, Culture & Education) close to some colleges that offer systematic spiritual training program to empower the modern youth.  </p>
-      </div>
-      <div class="col-md-8">
-        <div id="map"> </div>
-      </div>
-    </div>
-  </div>
-</div>
-            
-      
-      <section class="feedback" id="feed">
-  <div id="contact">
-    <div class="container-fluid">
-      <div class="row pt-4">
-        <div class="col-12 text-center py-5">
-          <h2 class="contact-heading pt-4 pb-md-3">Contact Us</h2>
-          <p class="lead">Thank you for visiting us!</p>
-          <p class="lead">Your Valuable feedback or ideas are very helpful or us!.</p>
-                  </div>
-      </div>
-      <div class="row contact-form justify-content-center align-items-center">
-        <div class="col-xs-10 col-md-8 col-lg-6 col-xl-4">
-          <form id="contactForm" onsubmit="return sendMail(this);">
-            <div class="form-group">
-              <label for="name">Name</label> <span class="form-label-marker">*</span>
-              <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required/> </div>
-            <div class="form-group">
-              <label for="email">Email</label> <span class="form-label-marker">*</span>
-              <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required/> </div>
-            <div class="form-group">
-              <label for="message">Message</label> <span class="form-label-marker">*</span>
-              <textarea rows="7" name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
+        <div class="carousel-item" data-interval="2000">
+          <div class="overlay-image" style="background-image:url(assets/images/Slider3.jpg);"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Eden Gardens Cricket Ground.</h1>
+              <p>Eden Gardens is a cricket ground in Kolkata, India. Established in 1864, it is the oldest and
+                second-largest cricket stadium in India .</p>
+
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="newsletter">
-              <label class="form-check-label" for="newsletter">I would like to receive a newsletter</label>
-            </div>
-            <div class="form-row text-center">
-              <div class="col py-5">
-                <button type="submit" id="btnsubmit" class="btn btn-form btn-danger">Submit</button>
-              </div>
-            </div>
-          </form>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<footer>
-<div class="foot">
+
+        <div class="carousel-item" data-interval="2000">
+          <div class="overlay-image" style="background-image:url(assets/images/Slider4.jpg);"></div>
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Second Hooghly Bridge.</h1>
+              <p>Vidyasagar Setu, also known as the Second Hooghly Bridge, over the Hooghly River, linking the cities of
+                Kolkata longest cable-stayed bridge in India.</p>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item" data-interval="2000">
+          <div class="overlay-image" style="background-image:url(assets/images/Slider5.jpg);"></div>
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Howrah Bridge</h1>
+              <p>This bridge is a balanced cantilever bridge over the Hooghly River in West Bengal, India. Commissioned
+                in 1943.
+
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+  <section class="attract" id="attr">
     <div class="container">
-      <a href="https://www.facebook.com/kolkatatourindia/" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="https://timesofindia.indiatimes.com/city/kolkata" target="blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+      <div class="row">
+        <div class="col-md-12">
+          <h1>FACTS ABOUT KOLKATA</h1>
+          <p>Located on the east bank of the Hooghly River, Kolkata truly holds the essence of Eastern India. Being a
+            historical city, Kolkata is home to numerous palaces, monuments, and temples bearing architectural
+            significance. Let’s explore some interesting facts about this Gateway of Eastern India: Durga Puja is the
+            most awaited and fascinating festival of Kolkata. During the Navratri festival, the entire city becomes
+            illuminated with numerous Puja Pandals. Kolkata’s marvelous architecture, delicious cuisines, Intellectuals
+            like Rabindranath Tagore, and a blend of various cultures; making it the scientific and cultural capital of
+            India. Kolkata is often referred to as the city where specialized sweet delight Bengali Rasgulla (pronounced
+            as Rosogolla) is made.It has trams, it has metros, it has taxis, but Kolkata still depends on its
+            traditional hand-pulled rickshaws to commute, the only one in India.</p>
+        </div>
+        <div class="col-md-4 bod">
+          <div class="image">
+            <img src="assets\images\food1.jfif">
+          </div>
+          <h2>Food and Culture</h2>
+
+          <p>An easy and quick munchy, Jhalmuri is an appetizing street food that can be found in every nook of the
+            city. The snack is a tossed-up mix of puffed rice, namkeen, peanuts, coriander, onions, tomatoes, spices,
+            chillies, and more.<span id="dots">...</span><span id="more">Samosa, as we know it in other regions of India
+              and in the world, Shingara is your triangular fried snack with potato stuffing that you crave to eat with
+              hot masala chai in the evening. Shingara, the best street food in Kolkata, is not limited to aloo
+              stuffing; you can get mutton, chicken and lamb as well.The culture of Kolkata concerns the music, art,
+              museums, festivals, and lifestyle within Kolkata. It is the former capital of India and the current
+              capital of the Indian state of West Bengal, and occasionally called the "Cultural capital of India".
+              Bengalis tend to have a special appreciation for art and literature.</span></p>
+          <button onclick="toggleFoodText();" id="myBtn">Read more</button>
+
+
+        </div>
+        <div class="col-md-4 bod">
+          <div class="image">
+            <img src="assets\images\weather.jfif">
+          </div>
+          <h2>Seasons in Kolkata</h2>
+
+          <p>Monsoons in Kolkata. Kolkata receives most of its rainfall during the southwest monsoon from June to
+            September.Winter is the most enjoyable time of the year in Kolkata, and is the time when most tourists
+            choose to visit the city.<span id="dots1">...</span><span id="more1">Humidity is low, and the days are dry
+              and sunny, making it best for sightseeing. Kolkata heads straight into summer in March, as the overnight
+              nip disappears from the air and daytime temperatures begin to climb. However, it's not until April, when
+              the dreaded humidity sets in, that the weather in the city becomes exhausting and intolerable. Humidity
+              levels reaching 85 percent are oppressive in May.The uncomfortable summer weather continues until the
+              monsoon reaches Kolkata by mid-June. You can expect rain on most days in the second half of June. The rain
+              intensifies in July and continues through August, with up to 21 rainy days each month.October brings
+              welcome respite to the city with shorter spells of rain, lower temperatures, and less humidity.</span></p>
+          <button onclick="toggleSeasonsText();" id="myBtn1">Read more</button>
+
+        </div>
+        <div class="col-md-4 bod">
+          <div class="image">
+            <img src="assets\images\temple.jfif">
+          </div>
+          <h2>Best time to Visit</h2>
+
+          <p>Located on the eastern coast of India, Kolkata has a typical tropical climate. Here’s a monthly seasonal
+            break up so you can plan your trip accordingly:
+
+            October-March: Starting from autumn the weather is pleasant and is a great time to visit Kolkata. <span
+              id="dots2">...</span><span id="more2">Apart from the weather, this is also the time for festivals. Kolkata
+              comes alive during Durga Puja as there are numerous pandals all over the city with beautiful idols or
+              Goddess Durga and multiple street food stalls. This is followed by Laxmi Puja and Kali Puja.
+
+              In winters the temperature varies somewhere between 9°C and 11°C. December and January are the coolest
+              months and you would need light woolens for this time, especially during the night. There is the
+              occasional rainfall, which makes the weather very pleasant making it the best time to plan a holiday.
+
+              April-May: These are the hottest months in the city with the temperature varying from over 40°C to around
+              30°C. The heat can make sightseeing a little difficult to remember to carry sunglasses and comfortable
+              cotton clothes.
+
+              June to September: This is the famous monsoon season of Kolkata when the city experiences heavy showers.
+              The temperature comes down although humidity levels rise. August is the wettest month and it tends to rain
+              over long durations. September is when the rain slows down and the cool breeze make for pleasant
+              evenings.</span></p>
+          <button onclick="toggleBesttimeText();" id="myBtn2">Read more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container1">
+    <div class="container">
+      <h1>Top Attractions of Kolkata</h1>
+
+      <div class="row">
+        <!-- <div class="container"> -->
+        <div class="column">
+          <img src="assets/images/FW.jpg"  class="attraction" alt="Nature" onclick="handleModal(this);">
+        </div>
+        <div class="column">
+          <img src="assets/images/HB.jpg" class="attraction" alt="It is a famous and peaceful religious place" onclick="handleModal(this);">
+        </div>
+        <div class="column">
+          <img src="assets/images/MotherH.jpg" class="attraction" alt="Mountains" onclick="handleModal(this);">
+        </div>
+        <div class="column">
+          <img src="assets/images/MP.jpg" class="attraction" alt="Lights" onclick="handleModal(this);">
+        </div>
+        <div class="column">
+          <img src="assets/images/RSarovar.jpg" class="attraction" alt="Lights" onclick="handleModal(this);">
+        </div>
+        <div class="column">
+          <img src="assets/images/SunBans.jpg" class="attraction" alt="Lights" onclick="handleModal(this);">
+        </div>
+        <div class="column">
+          <img src="assets/images/Tagore.jpg" class="attraction" alt="Lights" onclick="handleModal(this);">
+        </div>
+        <div class="column">
+          <img src="assets/images/Aqua.jpg" class="attraction" alt="Lights" onclick="handleModal(this);">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- The expanding image container -->
+    <div class="container">
+      <!-- Close the image -->
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+      <!-- Expanded image -->
+      <img id="expandedImg" style="width:100%">
+
+      <!-- Image text -->
+      <div id="imgtext"></div>
+    </div>
+  </section>
+
+
+  <!--Map Section-->
+  <div id="explore">
+    <div class="container-fluid">
+      <div class="row pt-5">
+        <div class="col-12 map-title text-center mt-sm-3 py-4">
+          <h2>Explore these places</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div id="sidebar" class="sidebar col-md-4 px-3"> <img class="img-fluid" src="assets/images/Mayapur.jpg"
+            alt="Athletes wrestling on a horseback at the World Nomad Games">
+          <h5 class="sidebar-heading py-4">Iskcon Temple</h5>
+          <p class="sidebar-text">ISKCON Kolkata is the first ISKCON Temple established by Srila Prabhupada in India.
+            Moreover, ISKCON’S first Ratha Yatra in India took place in Kolkata on 12 July 1972. ISKCON Kolkata’s youth
+            preaching wing ISKCON Youth Forum (IYF) has been preaching to youth community in and around Kolkata since
+            2001 and hundreds of students have participated in different courses.
+            <br> It has centres called VOICE (Vedic Oasis for Inspiration, Culture & Education) close to some colleges
+            that offer systematic spiritual training program to empower the modern youth.
+          </p>
+        </div>
+        <div class="col-md-8">
+          <div id="map"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="feedback" id="feed">
+    <div id="contact">
+      <div class="container-fluid">
+        <div class="row pt-4">
+          <div class="col-12 text-center py-5">
+            <h2 class="contact-heading pt-4 pb-md-3">Contact Us</h2>
+            <p class="lead">Thank you for visiting us!</p>
+            <p class="lead">Your Valuable feedback or ideas are very helpful or us!.</p>
+          </div>
+        </div>
+        <div class="row contact-form justify-content-center align-items-center">
+          <div class="col-xs-10 col-md-8 col-lg-6 col-xl-4">
+            <form id="contactForm" onsubmit="return sendMail(this);">
+              <div class="form-group">
+                <label for="name">Name</label> <span class="form-label-marker">*</span>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label> <span class="form-label-marker">*</span>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label> <span class="form-label-marker">*</span>
+                <textarea rows="7" name="message" id="message" class="form-control"
+                  placeholder="Your Message"></textarea>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="newsletter">
+                <label class="form-check-label" for="newsletter">I would like to receive a newsletter</label>
+              </div>
+              <div class="form-row text-center">
+                <div class="col py-5">
+                  <button type="submit" id="btnsubmit" class="btn btn-form btn-danger">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
+  <footer>
+    <div class="foot">
+      <div class="container">
+        <a href="https://www.facebook.com/kolkatatourindia/" target="blank"><i class="fa fa-facebook"
+            aria-hidden="true"></i></a>
+        <a href="https://timesofindia.indiatimes.com/city/kolkata" target="blank"><i class="fa fa-twitter-square"
+            aria-hidden="true"></i></a>
         <a href="https://www.tripadvisor.ie/" target="blank"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/accounts/login/" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-</div>
-</footer> 
+        <a href="https://www.instagram.com/accounts/login/" target="blank"><i class="fa fa-instagram"
+            aria-hidden="true"></i></a>
+      </div>
+  </footer>
 
-<script>
-  function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-  }
-  </script>
 
-    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="assets/javascript/cards.js"></script> -->
 
-    
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="assets/javascript/cards.js"></script> -->
 
 
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.29.2/sweetalert2.all.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-  
 
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Pivvh5y-O-BngXmcR_Pa4g9KY0ORDto&callback=initMap&libraries=&v=weekly" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.29.2/sweetalert2.all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
 
-<script src="assets/js/maps.js"></script>
-<script src="assets/js/sendemail.js"></script>
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script>
-	(function() {       
-emailjs.init('user_HQuMO406M2M3PCpd1ofZd');
 
 
-})();
-</script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Pivvh5y-O-BngXmcR_Pa4g9KY0ORDto&callback=initMap&libraries=&v=weekly"
+    defer></script>
 
-<script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  <script src="assets/js/maps.js"></script>
+  <script src="assets/js/sendemail.js"></script>
+  <script src="assets/js/common.js"></script>
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
-</script>
-<script>
-  function myFunction() {
-    var dots = document.getElementById("dots1");
-    var moreText = document.getElementById("more1");
-    var btnText = document.getElementById("myBtn1");
-  
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read more"; 
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less"; 
-      moreText.style.display = "inline";
-    }
-  }
-  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script>
-    function myFunction() {
-      var dots = document.getElementById("dots2");
-      var moreText = document.getElementById("more2");
-      var btnText = document.getElementById("myBtn2");
-    
-      if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
-        moreText.style.display = "none";
-      } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
-        moreText.style.display = "inline";
-      }
-    }
-    </script>
+    (function () {
+      emailjs.init('user_HQuMO406M2M3PCpd1ofZd');
+
+
+    })();
+  </script>
+
+
 </body>
+
 </html>
-    

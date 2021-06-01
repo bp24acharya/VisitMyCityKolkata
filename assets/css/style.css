@@ -164,3 +164,45 @@ section.container1 {
 }
 
 
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+.carousel-item
+{
+height: 32rem;
+background: #000;
+color: aliceblue;
+position: relative;
+background-position: center;
+background-size: cover;
+}
+
+
+
+.overlay-image{
+position:absolute;
+bottom:0;
+left:0;
+right:0;
+top:0px;
+background-position: center;
+background-size: cover;
+opacity: 0.5;
+}
+
+
