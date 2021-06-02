@@ -113,3 +113,7 @@ Usability of this website has been tested by sharing it with family and friends.
 
 # Compatibility Testing
 Compatibility and responsiveness of the website was extensively tested across multiple browsers (Chrome, Safari, Microsoft Edge, Fire Fox) and on muliple screen size devices including iPhone (5, 6, 7, PLus, X), iPad, iPad Pro; Android devices (Microsoft Lumia 950; Kindle Fire, Samsung Galaxy S, HTC One X) using Chrome Dev Tools and Responsive Web Design Tester. It was also tested on physical devices including iPhone and iPad.
+
+# Problem Encountered
+Initially I could'nt get how the Contact Form would work as the code institute tutorial showed a different format and now most of the things are changed so I took help from the tutor group and they helped me with a link which I referred to get it done. 
+I got stuck in ReadMore and ReadLess section but my mentor Excellence Illesanmi helped me to sort it out.
