@@ -135,6 +135,7 @@ Getting codes up to GitHub respository:
 Saved codes
 Click on the source control
 Type the changes that has been made
+Click on the yes button and code will be saved
 To publish the project to GitHubPages:
 Clicked on settings in the respository page in GitHub
 Under Options to the left, scrolled down to Pages
