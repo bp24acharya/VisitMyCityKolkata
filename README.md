@@ -96,6 +96,7 @@ This section proved to be very challenging to get it work correctly and required
 
 
 * Contact Form
+
 Form has been tested by submitting the form with one or more empty required fields. This returns an error message requesting to fill in all the requested fields.
 When a text input entered into an email field it returns an error "@ sign should be included in the email address". This however doesn't stop users from entering incorrect email address.
 "Submit" button changes color on hover as intended.
@@ -104,7 +105,8 @@ Tests revealed that the page was scrolling up to the top each time the form had 
 When the form has been submitted, users see a customised SweetAlert2 message to confirm their action has been successful / failed. This has been tested and is working as expected.
 The Contact Form has been correctly linked to EmailJS and sends an email every time users submit the form.
 
-*Footer
+* Footer
+ 
  I took quite a long time in doing this section as few things that were shown in the Code institute tutorial videos is not the same and the tutor group has helped me in pointing that.
  Footer is responsive and always stays on the bottom of the page. This have been tested by reducing / increasing the screen width and is working as intended.
 Change of colour and transition effects on hovering over Social Icons have been tested and working as intended.
