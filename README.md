@@ -2,7 +2,7 @@
 This website aims to promote The City of Joy, Kolkata as a travel destination on the international market.It is one of India’s largest cities and one of its major ports.Fashioned by the colonial British in the manner of a grand European capital—yet now set in one of the poorest and most overpopulated regions of India—Kolkata has grown into a city of sharp contrasts and contradictions. Kolkata has had to assimilate strong European influences and overcome the limitations of its colonial legacy in order to find its own unique identity.     
 ## UX:
 This Website will be helpful to people who has got no idea about any City in India but wants to go or a holiday and would also not like to spend much.
-. I want to get idea for my next travel exerience.
+I want to get idea for my next travel exerience.
 I want to be able to understand what kind of travel experience I am being offered and explore it from the comfort of my own home.
 I want to find out more information on the food and culture and the weather of the place.
 I can use the easily accessible simple navigation bar to select the section of the website that I need.
@@ -24,44 +24,44 @@ The wire frame can be seen here:<a href="VisitMyCityKolkata_Wireframe.bmpr" targ
 
 # Design Process
 This website is a single page website that consists of four sections: Home, Attraction and Contact. To navigate to different destinations on the website, users need to click navigation links that allow them to jump to different sections of the content or scroll down the page.
-Simple white background, minimalist design, easily accessible navigation bar, together with stunning images of must-see places were selected to allow users to explore the destination from their living rooms, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration.
+Simple white background, minimalist design, easily accessible navigation bar, together with stunning images of must-see places were selected to allow users to explore the destination from their living rooms, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration. There are different social media links aswell that will help the visitors to explore more about the place.
 
 # Technologies used
-<a href="https://www.tutorialspoint.com/html5/index.htm" target="_blank">HTML 5</a>
+* <a href="https://www.tutorialspoint.com/html5/index.htm" target="_blank">HTML 5</a>
 HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
 
-<a href="https://www.educba.com/what-is-css3/" target="_blank">CSS 3</a>
+* <a href="https://www.educba.com/what-is-css3/" target="_blank">CSS 3</a>
 CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.
 
-<a href="https://balsamiq.com/wireframes/" target="_blank">Balsamiq Wireframe</a>
+* <a href="https://balsamiq.com/wireframes/" target="_blank">Balsamiq Wireframe</a>
 Balsamiq helped me crystalise my design ideas, creating the layout structure.
 
-<a href="https://fontawesome.com/download" target="_blank">Fontawesome 4</a>
+* <a href="https://fontawesome.com/download" target="_blank">Fontawesome 4</a>
 I got all the icons for my website from here.
 
-<a href="https://desktop.github.com/" target="_blank">GitHub</a>
+* <a href="https://desktop.github.com/" target="_blank">GitHub</a>
 GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration.
 
-<a href="https://github.com/gitpod-io" target="_blank">Gitpod</a>
+* <a href="https://github.com/gitpod-io" target="_blank">Gitpod</a>
 Gitpod is an open source platform for automated and ready-to-code development environments that blends into your existing workflow.
 
 
-<a href="https://www.canva.com/design/play?template=EADk-fQc_8A&category=tACZCki4tbY&type=TACQ-j4WGew" target="_blank">Canva</a>
+* <a href="https://www.canva.com/design/play?template=EADk-fQc_8A&category=tACZCki4tbY&type=TACQ-j4WGew" target="_blank">Canva</a>
 It helped me in designing the style guide. This is a great tool and easy to use.
 
-<a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp" target="_blank">Media Query</a>
+* <a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp" target="_blank">Media Query</a>
 I used this for the resposive design of the website.
 
-<a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank">Bootstrap</a>
+* <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank">Bootstrap</a>
 Used to create a layout and to build a responsive, mobile-first design, which is compatible with all modern browsers. 
 
-<a href="https://developers.google.com/maps/apis-by-platform" target="_blank">Google maps API</a>
+* <a href="https://developers.google.com/maps/apis-by-platform" target="_blank">Google maps API</a>
 Used to embed Google Maps into the website, to provide users with the locations information.
  
- <a href="https://www.emailjs.com/docs/rest-api/send/" target="_blank">EmailJS API</a>
+ * <a href="https://www.emailjs.com/docs/rest-api/send/" target="_blank">EmailJS API</a>
   Helped to create an email template and enable users to send emails directly without using the server.
  
-<a href="https://sweetalert2.github.io/" target="_blank">SweetAlert2</a>
+* <a href="https://sweetalert2.github.io/" target="_blank">SweetAlert2</a>
  An interactive custom modal window, provides a status confirmation (success / fail) when users submit a form on the website.
 
 # Features
@@ -70,12 +70,12 @@ Header-responsive navigation header, designed using Bootstrap "navbar" and "fixe
 It is positioned on top of the page and always visible. This allows easy navigation if users wish to jump to a different section of the website.
 Home page consists of a Bootstrap image carousel that cycles through a series of images showcasing the natural beauty of the city Kolkata. The image carousel allows next controls for users' convenience.
 In the Attraction page facts about kolkata is given and there are three sections like Food and Culture/ Season / Best time to visit the city where the details on each topic is given clearly and will help the tourist.
-There are images of top attractions aswell for  reference.
+There are images of top attractions aswell for  reference.This images if clicked will enlarge and will have details about the page underneath it.
 The Contact form helps the user to give their feedback and this will help the other tourist alot.
 Footer is designed using Bootstrap and is located on the bottom of the page. It is responsive and takes up the whole width of the screen on all screen size devices.
 # Testing
-HTML Markup Validation Service
-CSS Validation Service
+HTML Markup Validation Service,
+CSS Validation Service,
 JavaScript Code Quality Tool JSHint 
 
 # Further Testing
@@ -118,3 +118,8 @@ Compatibility and responsiveness of the website was extensively tested across mu
 Initially I could'nt get how the Contact Form would work as the code institute tutorial showed a different format and now most of the things are changed so I took help from the tutor group and they helped me with a link which I referred to get it done. 
 I got stuck in ReadMore and ReadLess section but my mentor Excellence Illesanmi helped me to sort it out.
 # Deployment
+
+# Acknowledgements
+My Friend has helped me by sending links to different websites that I referred while working for this project.
+My mentor Excellence Ilesanmi for his continuous support and feedback throughout this project.
+CI Tutors and Slack Community for help and support.
