@@ -15,7 +15,7 @@ function initMap() {
     const markers = [
         {
             coords: { lat: 22.5788, lng: 88.4718 }, //Jeti-Oguz Gorge    
-            content: '<h4>Rajarhat New Town Sky Restaurant</h4>',
+            content: `<h4>Rajarhat New Town Sky Restaurant</h4>`,
             info: `<img class="img-fluid" src="assets/images/biswabanglaBanner.jpg" alt="Rajarhat New Town Sky Restaurant">
                 <h4 class="py-4">Rajarhat New Town Sky Restaurant</h4>
                 <p>Sky Restaurant - Glook The Sky Lounge is a newly opened restaurant which has opened up its doors in New Town on the 5th Floor of Pride PLaza Hotel. The main attraction of this place is their rooftop seating arrangement. The place is so beautiful.`
