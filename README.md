@@ -12,21 +12,21 @@ This Website will be helpful to people who has got no idea about any City in Ind
 * I want to have access to all necessary travel information I need to plan my trip.
 * I want to see if there is any feedback from someone about the place.
 * I want to use the website's Social Media for more inspiration.
-# Goals:
+## Goals:
 To provide a virtual experience to tourist to know better about the place.
 To give the detailed idea of the city.
 To enable easy access to the information needed to plan their trip.
 To showcase the best spots to visit.
 To ensure users are able to get in touch directly from the website via the Feedback Form.
 
-# Wireframing my project on Balsamiq
+## Wireframing my project on Balsamiq
 The wire frame can be seen here:<a href="VisitMyCityKolkata_Wireframe.bmpr" target="_blank">WireFrame</a>
 
-# Design Process
+## Design Process
 This website is a single page website that consists of four sections: Home, Attraction and Contact. To navigate to different destinations on the website, users need to click navigation links that allow them to jump to different sections of the content or scroll down the page.
 Simple white background, minimalist design, easily accessible navigation bar, together with stunning images of must-see places were selected to allow users to explore the destination from their living rooms, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration. There are different social media links aswell that will help the visitors to explore more about the place.
 
-# Technologies used
+##  Technologies used
 * <a href="https://www.tutorialspoint.com/html5/index.htm" target="_blank">HTML 5</a>
 HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
 
@@ -64,7 +64,7 @@ Used to embed Google Maps into the website, to provide users with the locations 
 * <a href="https://sweetalert2.github.io/" target="_blank">SweetAlert2</a>
  An interactive custom modal window, provides a status confirmation (success / fail) when users submit a form on the website.
 
-# Features
+## Features
 
 Header-responsive navigation header, designed using Bootstrap "navbar" and "fixed-top" and "navbar-light" classes.
 It is positioned on top of the page and always visible. This allows easy navigation if users wish to jump to a different section of the website.
@@ -73,12 +73,12 @@ In the Attraction page facts about kolkata is given and there are three sections
 There are images of top attractions aswell for  reference.This images if clicked will enlarge and will have details about the page underneath it.
 The Contact form helps the user to give their feedback and this will help the other tourist alot.
 Footer is designed using Bootstrap and is located on the bottom of the page. It is responsive and takes up the whole width of the screen on all screen size devices.
-# Testing
+##  Testing
 * HTML Markup Validation Service,
 * CSS Validation Service,
 * JavaScript Code Quality Tool JSHint 
 
-# Further Testing
+##  Further Testing
 * Navigation Bar
 
 The fixed navbar is placed on top of the page and always visible on all screen sizes.
@@ -112,16 +112,16 @@ The Contact Form has been correctly linked to EmailJS and sends an email every t
 Change of colour and transition effects on hovering over Social Icons have been tested and working as intended.
 Click on each Social icon revealed that links are functioning as intended and open in new tabs.
 
-# Usability Testing
+##  Usability Testing
 Usability of this website has been tested by sharing it with family and friends. No issues arose during the tests and it was confirmed that the website was simple, engaging and user-friendly. They were able to intuitively use the interactive elements of the website, find the information they were looking for and easily understand the purpose of the website.They really found the website very attractive and informative.
 
-# Compatibility Testing
+##  Compatibility Testing
 Compatibility and responsiveness of the website was extensively tested across multiple browsers (Chrome, Safari, Microsoft Edge, Fire Fox) and on muliple screen size devices including iPhone (5, 6, 7, PLus, X), iPad, iPad Pro; Android devices (Microsoft Lumia 950; Kindle Fire, Samsung Galaxy S, HTC One X) using Chrome Dev Tools and Responsive Web Design Tester. It was also tested on physical devices including iPhone and iPad.
 
-# Problem Encountered
+##  Problem Encountered
 Initially I could'nt get how the Contact Form would work as the code institute tutorial showed a different format and now most of the things are changed so I took help from the tutor group and they helped me with a link which I referred to get it done. 
 I got stuck in ReadMore and ReadLess section but my mentor Excellence Illesanmi helped me to sort it out.
-# Deployment
+##  Deployment
 The deployment process of getting this project on GitHub Pages:
 
 #### The HTML, CSS and JavaScript codes were written on Gitpod, using  project template.
@@ -146,7 +146,7 @@ Page took awhile to be published.
 This project may be downloaded or cloned:
 On respository page, select button titled Code.
 Drop down menu will give the option of Clone, Open with GitHub Desktop or Download Zip.
-# Acknowledgements
+## Acknowledgements
 
 My Friend has helped me by sending links to different websites that I referred while working for this project.
 My mentor Excellence Ilesanmi for his continuous support and feedback throughout this project.
