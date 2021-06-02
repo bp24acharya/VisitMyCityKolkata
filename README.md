@@ -129,25 +129,38 @@ The deployment process of getting this project on GitHub Pages:
 ####  I made a new repository on my GitHub account:
  
  Click 'New'
+
 Choose respository template - Code-Institute-Org/gitpod-full-template.
+
 Typed in respository's name.
+
 Clicked on Gitpod button to be transported to a new workspace there.
 #### Getting codes up to GitHub respository:
 
 Click on the source control.
+
 Type the changes that has been made.
+
 Click on the yes button and code will be saved.
 #### To publish the project to GitHubPages:
 
 Clicked on settings in the respository page in GitHub.
+
 Under Options to the left, scrolled down to Pages.
+
 Under Source, I chose Branch: Master and Folder: /(root).
+
 Page took awhile to be published.
+
 This project may be downloaded or cloned:
+
 On respository page, select button titled Code.
+
 Drop down menu will give the option of Clone, Open with GitHub Desktop or Download Zip.
 ## Acknowledgements
 
 My Friend has helped me by sending links to different websites that I referred while working for this project.
+
 My mentor Excellence Ilesanmi for his continuous support and feedback throughout this project.
+
 CI Tutors and Slack Community for help and support.
