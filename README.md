@@ -124,19 +124,19 @@ I got stuck in ReadMore and ReadLess section but my mentor Excellence Illesanmi 
 # Deployment
 The deployment process of getting this project on GitHub Pages:
 
-## The HTML, CSS and JavaScript codes were written on Gitpod, using  project template.
-## Gitpod is an online integrated development environment (IDE)
-## I made a new repository on my GitHub account:
+#### The HTML, CSS and JavaScript codes were written on Gitpod, using  project template.
+  Gitpod is an online integrated development environment (IDE)
+####  I made a new repository on my GitHub account:
  Click 'New'
 Choose respository template - Code-Institute-Org/gitpod-full-template
 Typed in respository's name
 Clicked on Gitpod button to be transported to a new workspace there
-## Getting codes up to GitHub respository:
+#### Getting codes up to GitHub respository:
 Saved codes
 Click on the source control
 Type the changes that has been made
 Click on the yes button and code will be saved
-## To publish the project to GitHubPages:
+#### To publish the project to GitHubPages:
 Clicked on settings in the respository page in GitHub
 Under Options to the left, scrolled down to Pages
 Under Source, I chose Branch: Master and Folder: /(root)
