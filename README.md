@@ -117,3 +117,4 @@ Compatibility and responsiveness of the website was extensively tested across mu
 # Problem Encountered
 Initially I could'nt get how the Contact Form would work as the code institute tutorial showed a different format and now most of the things are changed so I took help from the tutor group and they helped me with a link which I referred to get it done. 
 I got stuck in ReadMore and ReadLess section but my mentor Excellence Illesanmi helped me to sort it out.
+# Deployment
