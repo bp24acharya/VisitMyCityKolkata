@@ -188,7 +188,7 @@
             as Rosogolla) is made.It has trams, it has metros, it has taxis, but Kolkata still depends on its
             traditional hand-pulled rickshaws to commute, the only one in India.</p>
         </div>
-        <div class="col-md-4 bod">
+        <div class="col-md-4">
           <div class="image">
             <img src="assets\images\food1.jfif">
           </div>
@@ -207,13 +207,13 @@
 
 
         </div>
-        <div class="col-md-4 bod">
-          <div class="image">
+        <div class="col-md-4" >
+          <div class="card card-zoom">
             <img src="assets\images\weather.jfif">
-          </div>
-          <h2>Seasons in Kolkata</h2>
+            <div class="card-body">
+          <h2 class="card-title">Seasons in Kolkata</h2>
 
-          <p>Monsoons in Kolkata. Kolkata receives most of its rainfall during the southwest monsoon from June to
+          <p class="card-text">Monsoons in Kolkata. Kolkata receives most of its rainfall during the southwest monsoon from June to
             September.Winter is the most enjoyable time of the year in Kolkata, and is the time when most tourists
             choose to visit the city.<span id="dots1">...</span><span id="more1">Humidity is low, and the days are dry
               and sunny, making it best for sightseeing. Kolkata heads straight into summer in March, as the overnight
@@ -223,16 +223,18 @@
               monsoon reaches Kolkata by mid-June. You can expect rain on most days in the second half of June. The rain
               intensifies in July and continues through August, with up to 21 rainy days each month.October brings
               welcome respite to the city with shorter spells of rain, lower temperatures, and less humidity.</span></p>
-          <button onclick="toggleSeasonsText();" id="myBtn1">Read more</button>
-
+          <button onclick="toggleSeasonsText();" id="myBtn1" class="btn btn-dark card-buttons">Read more</button>
+              </div>
+              </div>
         </div>
-        <div class="col-md-4 bod">
-          <div class="image">
+        <div class="col-md-4" >
+          <div class="card card-zoom">
+          
             <img src="assets\images\temple.jfif">
-          </div>
-          <h2>Best time to Visit</h2>
+          <div class="card-body">
+          <h2 class="card-title">Best time to Visit</h2>
 
-          <p>Located on the eastern coast of India, Kolkata has a typical tropical climate. Here’s a monthly seasonal
+          <p class="card-text">Located on the eastern coast of India, Kolkata has a typical tropical climate. Here’s a monthly seasonal
             break up so you can plan your trip accordingly:
 
             October-March: Starting from autumn the weather is pleasant and is  <span
@@ -252,7 +254,12 @@
               The temperature comes down although humidity levels rise. August is the wettest month and it tends to rain
               over long durations. September is when the rain slows down and the cool breeze make for pleasant
               evenings.</span></p>
-          <button onclick="toggleBesttimeText();" id="myBtn2">Read more</button>
+          <button onclick="toggleBesttimeText();" id="myBtn2" class="btn btn-dark card-buttons">Read more</button>
+
+
+                </div>
+              </div>
+          </div>
         </div>
       </div>
     </div>
@@ -365,7 +372,7 @@
               </div>
               <div class="form-row text-center">
                 <div class="col py-5">
-                  <button type="submit" id="btnsubmit" class="btn btn-form btn-danger">Submit</button>
+                  <button type="submit" id="btnsubmit" class="btn btn-form btn-dark">Submit</button>
                 </div>
               </div>
             </form>
