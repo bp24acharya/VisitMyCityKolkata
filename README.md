@@ -24,7 +24,7 @@ The wire frame can be seen here:<a href="VisitMyCityKolkata_Wireframe.bmpr" targ
 
 ## Design Process
 This website is a single page website that consists of four sections: Home, Attraction and Contact. To navigate to different destinations on the website, users need to click navigation links that allow them to jump to different sections of the content or scroll down the page.
-Simple white background, minimalist design, easily accessible navigation bar, together with stunning images of must-see places were selected to allow users to explore the destination from their living rooms, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration. Each Picture in the Carousel has a desciption below it so that the visitor can know about it very well. There are different social media links aswell that will help the visitors to explore more about the place.
+Simple white background, minimalist design, easily accessible navigation bar, together with stunning images of must-see places were selected to allow users to explore the destination from their living rooms, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration. Each Picture in the Carousel has a desciption below it so that the visitor can know about it very well. Lists of attractions map has also been included so that visitor can locate the places and plan their trip accordingly.There are different social media links aswell that will help the visitors to explore more about the place.
 
 ##  Technologies used
 * <a href="https://www.tutorialspoint.com/html5/index.htm" target="_blank">HTML 5</a>
@@ -64,6 +64,11 @@ Used to embed Google Maps into the website, to provide users with the locations 
 * <a href="https://sweetalert2.github.io/" target="_blank">SweetAlert2</a>
  An interactive custom modal window, provides a status confirmation (success / fail) when users submit a form on the website.
 
+ * <a href="https://code.jquery.com/jquery-3.6.0.js" target="_blank">jQuery</a>
+ jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+
+
+
 ## Features
 
 Header-responsive navigation header, designed using Bootstrap "navbar" and "fixed-top" and "navbar-light" classes.
@@ -87,7 +92,7 @@ All the links on the navbar have been clicked to test and are working as intende
 
 * Image Carousel
 
-Bootstrap Image carousel takes up the full page as intended and cycles through the images. The time delay attribute is functioning as intended, allowing some delay between automatically cycling the images.In this section I have included images with a description on it so that it attracts the tourists.
+Bootstrap Image carousel takes up the full page as intended and cycles through the images. The time delay attribute is functioning as intended, allowing some delay between automatically cycling the images.In this section I have included images with a description on it so that it attracts the tourists. The first image has a delay of 3sec and 2sec for all other images. It also has previous and next button to control the carousel according to their choice.
 
 
 * Map Section
