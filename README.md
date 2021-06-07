@@ -24,7 +24,7 @@ The wire frame can be seen here:<a href="VisitMyCityKolkata_Wireframe.bmpr" targ
 
 ## Design Process
 This website is a single page website that consists of four sections: Home, Attraction and Contact. To navigate to different destinations on the website, users need to click navigation links that allow them to jump to different sections of the content or scroll down the page.
-Simple white background, minimalist design, easily accessible navigation bar, together with stunning images of must-see places were selected to allow users to explore the destination from their living rooms, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration. There are different social media links aswell that will help the visitors to explore more about the place.
+Simple white background, minimalist design, easily accessible navigation bar, together with stunning images of must-see places were selected to allow users to explore the destination from their living rooms, whether they are looking for a guide to a specific location or just browsing for the next trip inspiration. Each Picture in the Carousel has a desciption below it so that the visitor can know about it very well. There are different social media links aswell that will help the visitors to explore more about the place.
 
 ##  Technologies used
 * <a href="https://www.tutorialspoint.com/html5/index.htm" target="_blank">HTML 5</a>
@@ -73,6 +73,7 @@ In the Attraction page facts about kolkata is given and there are three sections
 There are images of top attractions aswell for  reference.This images if clicked will enlarge and will have details about the page underneath it.
 The Contact form helps the user to give their feedback and this will help the other tourist alot.
 Footer is designed using Bootstrap and is located on the bottom of the page. It is responsive and takes up the whole width of the screen on all screen size devices.
+
 ##  Testing
 * HTML Markup Validation Service,
 * CSS Validation Service,
