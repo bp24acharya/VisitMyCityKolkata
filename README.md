@@ -123,6 +123,15 @@ Initially I could'nt get how the Contact Form would work as the code institute t
 I got stuck in ReadMore and ReadLess section but my mentor Excellence Illesanmi helped me to sort it out.
 ##  Deployment
 The deployment process of getting this project on GitHub Pages:
+All code for this website was written in Gitpod and then pushed to GitHub to store in my local repository. It was then published using GitHub Pages directly from the main branch by following the steps below:
+
+* Select VisitMyCityKolkata in the repositories
+* Click on Settings in the menu bar
+* Scroll down to GitHub Pages and select "main branch" in drop-down menu in the Source section
+* The page will reload and you'll be provided with a link to your published website.
+* To run the code locally by cloning this repository, click on Download Code. To clone the repository     using HTTPS, under "Clone with HTTPS" click on Save.
+* To create a personal copy of this repository, click on Fork button on the top right corner of the page.
+There is no difference between the deployed version and the development version.
 
 #### The HTML, CSS and JavaScript codes were written on Gitpod, using  project template.
   Gitpod is an online integrated development environment (IDE)
